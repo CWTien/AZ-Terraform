@@ -1,1 +1,7 @@
 secrets.tfvars
+Resources/creds.tf
+.terraform.lock.hcl
+main.tfplan
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/modules/modules.json
