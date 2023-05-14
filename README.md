@@ -16,7 +16,7 @@
 <kbd><samp>terraform init -upgrade</samp></kbd>
 
 <h5>Once you are ready to test your code:</h5>
-<kbd><samp>terraform plan -var-file="secrets.tfvars"</samp></kbd>
+<kbd><samp>terraform plan -var-file="secrets.tfvars" -out main.tfplan</samp></kbd>
 
 <h5>Once you are ready to execute your code: (requires previous command)</h5>
 <kbd><samp>terraform apply -var-file="secrets.tfvars"</samp></kbd>
